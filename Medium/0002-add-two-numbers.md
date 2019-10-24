@@ -72,10 +72,10 @@ var addTwoNode = function(node1, node2, carry) {
 }
 ```
 
-还在想怎么调用 `ListNode` 才能设置 `next` 属性，该开始怎么写都是
+还在想怎么调用 `ListNode` 才能设置 `next` 属性，刚开始怎么写都是
 
 ```js
 const node = ListNode(0)
 ```
 
-后来不得已看了下资料，才发现原来要用到 `new` 啊，真是太年轻了。怎么也没想到一个函数要用到 `new` ，看来原生 JS 还得好好学习下了。
+不得已看了下资料，才发现原来要用到 `new` 啊，真是太年轻了。怎么也没想到一个函数要用到 `new` ，看来原生 JS 还得好好学习下了。
