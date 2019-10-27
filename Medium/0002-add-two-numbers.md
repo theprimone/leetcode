@@ -1,13 +1,5 @@
 # [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
-## Example
-
-```
-Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-Output: 7 -> 0 -> 8
-Explanation: 342 + 465 = 807.
-```
-
 ## Submissions
 
 ### 1st
@@ -71,6 +63,8 @@ var addTwoNode = function(node1, node2, carry) {
   return [value, nextCarry];
 }
 ```
+
+#### 事后总结
 
 还在想怎么调用 `ListNode` 才能设置 `next` 属性，该开始怎么写都是
 
