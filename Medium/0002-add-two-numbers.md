@@ -72,4 +72,4 @@ var addTwoNode = function(node1, node2, carry) {
 const node = ListNode(0)
 ```
 
-后来不得已看了下资料，才发现原来要用到 `new` 啊，真是太年轻了。怎么也没想到一个函数要用到 `new` ，看来原生 JS 还得好好学习下了。
+不得已看了下资料，才发现原来要用到 `new` 啊，真是太年轻了。怎么也没想到一个函数要用到 `new` ，看来原生 JS 还得好好学习下了。
