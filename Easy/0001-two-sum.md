@@ -20,3 +20,7 @@ var twoSum = function(nums, target) {
   }
 };
 ```
+
+### 总结
+
+1. 当前最优解（2019-10-23）

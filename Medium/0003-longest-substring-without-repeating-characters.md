@@ -33,7 +33,14 @@ var getNextSubstring = function(substring, char) {
 }
 ```
 
-#### 事后总结
+### 总结
+
+1. 没考虑空字符串
+2. 发现重复的字符后直接重置为当前字符
+3. 发现重复的字符后未分离重复的字符
+4. 当前最优解（2019-10-27）
+
+### 拓展
 
 [Deprecated] str.substr(start: number, length?: number)
 
@@ -41,8 +48,3 @@ str.substring(indexStart, indexEnd?: number)
 
 [str.indexOf(searchValue, fromIndex?: number)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 
-说说前三次提交的问题
-
-* 没考虑空字符串
-* 发现重复的字符后直接重置为当前字符
-* 发现重复的字符后未分离重复的字符
