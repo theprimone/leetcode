@@ -35,7 +35,7 @@ var isDescendTrend = function (x, numRows) {
 }
 ```
 
-#### 事后总结
+### 总结
 
 1. 性能太低（二维数组）
 2. 性能优化（`string` 数组）
