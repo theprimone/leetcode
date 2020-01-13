@@ -7,6 +7,8 @@
 ### 1st
 
 ```js
+// 2019-10-27
+
 /**
  * @param {string} s
  * @return {number}
@@ -38,7 +40,6 @@ var getNextSubstring = function(substring, char) {
 1. 没考虑空字符串
 2. 发现重复的字符后直接重置为当前字符
 3. 发现重复的字符后未分离重复的字符
-4. 当前最优解（2019-10-27）
 
 ### 拓展
 

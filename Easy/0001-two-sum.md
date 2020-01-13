@@ -5,6 +5,8 @@
 ### 1st
 
 ```js
+// 2019-10-23
+
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -20,7 +22,3 @@ var twoSum = function(nums, target) {
   }
 };
 ```
-
-### 总结
-
-1. 当前最优解（2019-10-23）

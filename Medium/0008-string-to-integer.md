@@ -5,6 +5,8 @@
 ### 1st
 
 ```js
+// 2019-11-25
+
 /**
  * @param {string} str
  * @return {number}
@@ -37,7 +39,7 @@ var processOverflow = function (num) {
 
 ### 总结
 
-性能中等，参考了两个范例：
+性能中等，又看了两个范例：
 
 性能不错的一个:
 

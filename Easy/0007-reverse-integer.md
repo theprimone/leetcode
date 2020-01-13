@@ -1,10 +1,12 @@
-# [1. Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)
+# [7. Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)
 
 ## Submissions
 
 ### 1st
 
 ```js
+// 2019-11-12
+
 /**
  * @param {number} x
  * @return {number}
@@ -38,10 +40,9 @@ var reverseString = function (str) {
 
 ### 总结
 
-1. 当前最优解（2019-11-12）
-2. 直接使用上下限，节省了几毫秒的用时
+如果直接使用上下限，可节省了几毫秒的用时。
 
-看了一个如下的范例。
+又看了一个如下的范例。
 
 ```js
 /**

@@ -5,6 +5,8 @@
 ### 1st
 
 ```js
+// 2019-10-23
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -65,10 +67,6 @@ var addTwoNode = function(node1, node2, carry) {
 ```
 
 ### 总结
-
-1. 执行出错，输入 [5]
-2. 执行出错，输入 [5]
-3. 当前最优解（2019-10-23）
 
 还在想怎么调用 `ListNode` 才能设置 `next` 属性，刚开始怎么写都是
 
